@@ -8,6 +8,8 @@ Feed where automatically “messages” get posted (presented by rectangles and 
 
 Donation sum that grows over time
 
+(This is a test for the first push)
+
 Flower that represents involvement (presented by rectangle)
 
 Three checkboxes: Low, Medium or High involvement

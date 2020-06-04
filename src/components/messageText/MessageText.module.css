@@ -1,0 +1,18 @@
+.wrapper{
+    display:flex;
+    align-items:center;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-bottom: solid black 2px;
+}
+.textWrapper{
+    display:flex;
+}
+.hashtag{
+    margin-left: 2rem;
+    font-weight:bold;
+}
+.signal{
+    width:0.3rem;
+
+}

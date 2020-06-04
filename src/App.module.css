@@ -1,3 +1,9 @@
 .wrapper{
-    display:flex;
+    display:grid;
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 15vh 55vh 20vh;
+    padding:0;
+}
+.hidden{
+    display:none;
 }

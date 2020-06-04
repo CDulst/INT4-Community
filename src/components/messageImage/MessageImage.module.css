@@ -1,0 +1,12 @@
+.wrapper{
+    display:flex;
+    align-items:flex-start;
+    padding-bottom:2rem;
+    border-bottom: solid black 2px;
+}
+.photo{
+margin-top:1rem;
+}
+.hashtag{
+font-weight:bolder;
+}

@@ -7,7 +7,8 @@ import style from './App.module.css'
 function App() {
   return (
   <>
-  <h1>Community</h1>
+
+  <h1 className = {style.hidden} >Community</h1>
   <div className = {style.wrapper}>
   <div>
   <Challenge/>

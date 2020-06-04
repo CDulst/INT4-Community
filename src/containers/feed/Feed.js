@@ -1,12 +1,16 @@
 import React from 'react';
 import MessageImage from '../../components/messageImage/MessageImage'
 import MessageText from '../../components/messageText/MessageText'
+import style from './Feed.module.css';
 function Feed() {
   return (
   <>
-  <div>
-  <h2>Live Feed</h2>
+  <div class = {style.wrapper}>
+  <h2 class = {style.hidden}>Live Feed</h2>
   <MessageImage/>
+  <MessageText/>
+  <MessageText/>
+  <MessageText/>
   <MessageText/>
   </div>
   </>

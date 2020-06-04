@@ -1,0 +1,11 @@
+.wrapper{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    grid-column:2;
+    grid-row: 1 / span 3;
+
+
+}
+.hidden{
+    display:hidden;
+}

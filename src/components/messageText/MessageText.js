@@ -1,17 +1,18 @@
 import React from 'react';
 import profile from '../../assets/profile.png';
-import longbar from '../../assets/longbar.svg';
-import shortbar from '../../assets/shortbar.svg';
+import longbar from '../../assets/message/longbar.svg';
+import shortbar from '../../assets/message/shortbar.svg';
+import style from './MessageText.module.css';
 
 function MessageText() {
   return (
-  <div>
+  <div className = {style.wrapper}>
   <img src = {profile}/>
   <div>
   <img src = {longbar}/>
-  <div>
+  <div class = {style.textWrapper}>
   <img src = {shortbar}/>
-  <p> #FlowerAmsterdam</p>
+  <p class = {style.hashtag}> #FlowerAmsterdam</p>
   </div>
   </div>
   </div>

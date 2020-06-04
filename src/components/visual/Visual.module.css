@@ -1,0 +1,17 @@
+.wrapperSum{
+    display:flex;
+    align-items:flex-end;
+}
+.image{
+    position:relative;
+    width:45vw;
+    margin-bottom:-3.6rem;
+    z-index:0;
+}
+.hidden{
+    display:none;
+}
+.Add{
+font-size:4rem;
+color:green;
+}

@@ -1,0 +1,31 @@
+.signalWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:20rem;
+}
+.wrapper{
+    display:flex;
+    justify-content:space-between;
+    padding: 0 4rem;
+    grid-column: 1 / span 2;
+    grid-row:3;
+    color:white;
+    background-color:#383636;
+    padding-bottom:2rem;
+    padding-left:2rem;
+}
+
+.signal{
+    width:20%;
+    height:80%;
+    margin-top:0.5rem;
+}
+.para{
+    margin-left:1rem;
+    font-weight:bolder;
+    font-size:1.5rem;
+    text-transform:uppercase;
+    margin-left:2rem;
+    margin-top:2rem;
+}

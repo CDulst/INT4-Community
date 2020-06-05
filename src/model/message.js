@@ -1,6 +1,7 @@
 import React from 'react';
 import {observable,action,decorate,configure} from "mobx"
 import root from "../controllers"
+
 import { v4 } from "uuid";
 
 class Message {

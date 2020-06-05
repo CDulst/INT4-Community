@@ -15,3 +15,18 @@
 font-size:4rem;
 color:green;
 }
+
+.Addin{
+transform: translateY(10rem);
+opacity:100%;
+}
+
+.AddOut{
+transform: translateY(-10rem);
+opacity:10%;
+transition: ease-in all 1s;
+}
+
+.Add:hover{
+
+}

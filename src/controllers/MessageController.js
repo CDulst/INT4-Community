@@ -11,7 +11,7 @@ class MessageController{
   }
 
   changePostSpeed(value) {
-  this.postSpeed = 800 - value*2 - 50 ;
+  this.postSpeed = 800 - value * 1.5 ;
   }
 
   addMessage(){

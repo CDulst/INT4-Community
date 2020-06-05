@@ -7,7 +7,7 @@ class DonationController {
   this.donationSum = 0;
   this.donationSumString = "00000000.10";
   this.waitTime = 2000;
-  this.countTime = 20;
+  this.countTime = 100;
   this.toAddMoney = 0.20;
   this.addedMoney = 0;
   this.counterEnabled = false;
@@ -19,11 +19,11 @@ class DonationController {
   }
 
   changeWaitTime(value){
-      this.waitTime = 2000 - value*3;
+      this.waitTime = 2000 - value*2.5;
   }
 
   changeCountTime(value){
-    this.countTime = 20 - value/100*4.2;
+    this.countTime = 100 - value/100 - 0.8*value;
   }
 
   EnableCounter(){

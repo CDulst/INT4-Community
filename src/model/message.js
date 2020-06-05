@@ -13,7 +13,7 @@ class Message {
   removeSelf(){
     setTimeout(() => {
         root.messageController.unlinkMessage(this.id);
-    }, 8000);
+    }, 4000);
 
 }
 

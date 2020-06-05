@@ -6,17 +6,17 @@ class MessageController{
   {
   this.root = root;
   this.messages = [];
-  this.postSpeed = 100;
+  this.postSpeed = 1000;
   this.addMessage();
   }
 
   changePostSpeed(value) {
-  
+  this.postSpeed = 800 - value*2 - 50 ;
   }
 
   addMessage(){
   let randomNumber = Math.floor(Math.random() * 2);  
-  let currentHashtag = this.root.challengeController.currentHashtag;
+  let currentHashtag = "#FlowerAmsterdam";
   let message = new Message ({hashtag:currentHashtag,type:randomNumber})
   console.log(message);
   this.messages.unshift(message);

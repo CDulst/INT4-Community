@@ -6,21 +6,24 @@ class DonationController {
   this.root = root;
   this.donationSum = 0;
   this.donationSumString = "00000000.10";
-  this.waitTime = 800;
+  this.waitTime = 2000;
   this.countTime = 20;
-  this.toAddMoney = 0.55;
+  this.toAddMoney = 0.20;
   this.addedMoney = 0;
   this.counterEnabled = false;
   this.EnableCounter();
   }
   changeToAddMoney(value){
-
+   let toadd = 0.20 + (value/1000)
+   this.toAddMoney = toadd.toFixed(2);
   }
+
   changeWaitTime(value){
-
+      this.waitTime = 2000 - value*3;
   }
-  changeCountTime(value){
 
+  changeCountTime(value){
+    this.countTime = 20 - value/100*4.2;
   }
 
   EnableCounter(){

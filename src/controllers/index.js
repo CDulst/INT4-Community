@@ -11,7 +11,7 @@ class Root {
   constructor(){
   this.challengeController = new ChallengeController();
   this.donationController = new DonationController(this);
-  this.messageController = new MessageController();
+  this.messageController = new MessageController(this);
   this.stylingController = new StylingController();
   }
  
